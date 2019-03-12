@@ -1,2 +1,2 @@
 # C++
-CS122
+CS122 Project
