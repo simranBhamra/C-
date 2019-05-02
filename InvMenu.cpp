@@ -5,12 +5,13 @@
 
 using namespace std;
 
+//20 books
 int const SIZE = 20; 
 
 void invMenu()
 {
 	int choice = 0;
-
+//menu for the user
 	while (choice != 5)
 	{
 		cout << "Serendipity Booksellers\n";
