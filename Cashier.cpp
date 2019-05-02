@@ -1,4 +1,5 @@
 //Simran Bhamra
+//including headers files
 #include "cashier.h"
 #include "bookdata.h"
 #include <iostream>
