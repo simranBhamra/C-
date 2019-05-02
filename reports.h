@@ -2,6 +2,7 @@
 #ifndef REPORTS_H
 #define REPORTS_H
 
+//function prototypes
 void reports();
 
 void repListing();
