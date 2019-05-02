@@ -1,6 +1,5 @@
 //Simran Bhamra 
 
-//including header files
 #include "bookinfo.h"
 #include "bookdata.h"
 #include <iostream>
@@ -8,7 +7,6 @@
 
 using namespace std;
 
-//printing information about the book
 void bookInfo(string bookTitle, string isbn,string author,string publisher,
 string dataAdded, int qtyOnHand, double wholesale, double retail)
 {
@@ -27,4 +25,6 @@ string dataAdded, int qtyOnHand, double wholesale, double retail)
 	cout << left << setw(30) << "Retail Price: " <<  retail << endl;
 }
 
-
+void bookInfo()
+{
+}
