@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//bookinfo function prints the informaion to the user 
 void bookInfo(string bookTitle, string isbn,string author,string publisher,
 string dataAdded, int qtyOnHand, double wholesale, double retail)
 {
