@@ -5,10 +5,12 @@
 
 using namespace std;
 
+
+//reports function presents the menu then enters a switch case to call the correct functions
 void reports()
 {
 	int choice = 0;
-
+//menu
 	while (choice != 7)
 	{
 
@@ -33,6 +35,8 @@ void reports()
 			cout << "Enter your choice: ";
 			cin >> choice;
 		}
+		
+		//switch case for choices
 			switch (choice)
 			{
 			case 1:
@@ -73,21 +77,25 @@ void repWholesale()
 	cout << "\nYou selected Inventory Wholesale Value.\n";
 }
 
+//function will allow the user to find the retail values for the books in the inventory 
 void repRetail()
 {
 	cout << "\nYou selected Inventory Retail Value.\n";
 }
 
+//function will present the quanity of each type of book in the inventory 
 void repQty()
 {
 	cout << "\nYou selected Inventory Listing by Quantity.\n";
 }
 
+//function will show the inventory by cost 
 void repCost()
 {
 	cout << "\nYou selected Inventory Listing by Cost.\n";
 }
 
+//function will allow the user to view the age of the books in the inventory 
 void repAge()
 {
 	cout << "\nYou selected Inventory Listing by Age.\n";
