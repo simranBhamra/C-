@@ -88,6 +88,9 @@ void deleteBook()
 
 //search function for the books 
 int findBook( ) {
-	
+	//just a place holder as the book number should be returned here 
+	int book=0; 
 	cout << "\nYou selected find book.\n"; 
+	return book; 
+
 }
