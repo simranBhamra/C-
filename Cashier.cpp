@@ -8,10 +8,13 @@
 
 using namespace std;
 
+//cashier function 
+//asking the user for information and then prints out the apporiate information 
 void cashier()
 {
 	const double SALES_TAX = 0.06; 
-
+	
+	//variables 
 	string date;
 	string isbn;
 	string title;
@@ -22,6 +25,7 @@ void cashier()
 	double total;
 	char again;
 
+	//entering the data
 	do
 	{
 		cout << "Serendipity Booksellers\n";
@@ -51,6 +55,7 @@ void cashier()
 		tax = subtotal * SALES_TAX;
 		total = subtotal + tax;
 
+		//printing information
 		cout << "Date: " << date << " \n\n";
 
 		cout << "Qty\tISBN\t\tTitle\t\t\t\tPrice\t\tTotal\n";
@@ -74,7 +79,7 @@ void cashier()
 		cout << setw(6) << total << "\n\n";
 
 		cout << "\n\nThank you for shopping at Serendipity!\n";
-
+		//goes into the lopp again 
 		cout << "Process another transaction (Y/N) ";
 		cin >> again;
 		cin.ignore();
