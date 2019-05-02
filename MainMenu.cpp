@@ -8,6 +8,7 @@
 
 using namespace std;
 
+//variables 
 const int SIZE = 20; 
 string bookTitle[SIZE];
 string isbn[SIZE];
@@ -19,6 +20,8 @@ double wholesale[SIZE];
 double retail[SIZE];
 
 
+//main menu for the user
+//takes them to their correct destination by calling the next level of menus in a switch case 
 int main()
 {
 	int choice = 0;
@@ -43,7 +46,7 @@ int main()
 			cout << "Enter your choice: ";
 			cin >> choice;
 		}
-
+//switch case for choice 
 			switch (choice)
 			{
 			case 1:
