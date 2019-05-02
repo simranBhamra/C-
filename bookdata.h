@@ -7,6 +7,7 @@ using namespace std;
 
 class bookdata {
 private:
+	//membres of the book data class
 	string bookTitle;
 	string isbn; 
 	string author;
